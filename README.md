@@ -102,7 +102,7 @@ Practical, real-world desktop assistant design
 👤 Author
 Built by Kartikeya Jagadale & Ayush Kalambe
 
-LinkedIn: 
+LinkedIn: https://www.linkedin.com/posts/kartikeya-jagadale-687a02370_introducing-astra-my-hackathon-voice-activity-7402705928627601409-AQD4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFv8SUcB9nrY5kQ8ST3RBG41HzSxjdxK9EQ
 
 @MurfAI
 
