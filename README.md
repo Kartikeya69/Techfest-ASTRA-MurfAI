@@ -101,6 +101,9 @@ Practical, real-world desktop assistant design
 
 👤 Author
 Built by Kartikeya Jagadale & Ayush Kalambe
+
 LinkedIn: 
+
 @MurfAI
+
 Built using Murf Falcon – the consistently fastest TTS API.
