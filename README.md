@@ -71,10 +71,15 @@ pip install -r requirements.txt
 Create a .env file in the same folder:
 
 GEMINI_API_KEY=your_key_here
+
 MURF_API_KEY=your_key_here
+
 DEEPGRAM_API_KEY=optional
+
 OPENWEATHER_API_KEY=optional
+
 NEWSAPI_KEY=optional
+
 4. Run ASTRA
 Copy code
 python app.py.
