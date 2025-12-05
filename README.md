@@ -1,144 +1,105 @@
 # Techfest-ASTRA-MurfAI
-# ⚡ ASTRA — Advanced Speech-based Total Response Assistant
+# ⚡ ASTRA – Conversational Voice Assistant  
+### Built for Techfest 2025-26 • Murf Voice Agent Hackathon  
+----------------------------
+Astra is a **fully-functional desktop voice AI** built using:
 
-Astra is a **fully-featured desktop voice assistant** built in Python using PyQt6.  
-It includes **real-time speech recognition, wake-word detection, Murf TTS, Gemini AI replies, animated neon UI, reminders, notes, command execution**, and more — all contained inside *one single file (`app.py`)*.
+- **Murf Falcon TTS API** (ultra-fast, natural voice output)  
+- **ASR (Speech Recognition)** for real-time conversation  
+- **Gemini AI** for intelligent responses  
+- **PyQt6** for a neon cyber-themed UI  
+- **Wake-word detection** (“Hey Astra”)  
+- **Reminders, notes, logs, command execution & more**  
 
----
+Everything is packed inside **one single Python file (`app.py`)**, making it portable, easy to review, and perfect for hackathons.
 
-## ✨ Features
+----------------------------
 
-### 🎤 Speech & AI
-- Real-time speech recognition (Google STT)
-- Wake word detection (“hey astra”, “ok astra”, “computer”, etc.)
-- Gemini 2.5 Flash powered AI responses
-- Premium-quality Murf AI TTS output
-- Optional pyttsx3 fallback
+## 🎯 Objective
 
-### 🧠 System Features
-- Command execution (Chrome, Notepad, Calculator, etc.)
-- Notes system (saved to file and memory)
-- Reminder system (saved to file and memory)
-- Web search commands
-- Logs viewer (complete command history)
+This project was built to demonstrate **how effectively Murf Falcon can power a responsive, natural, and interactive voice agent** in a real desktop environment.
 
-### 🌈 UI Features (PyQt6)
-- Neon-themed animated interface  
-- Typing animation for AI messages  
-- Multiple themes:
+Astra uniquely combines:
+- Fast input → response loop  
+- Real-time speech output  
+- Functional utilities (apps, reminders, notes)  
+- Dynamic UI + animations  
+
+----------------------------
+
+## 🎤 Features
+
+### 🔊 Voice Interaction
+- Real-time STT (ASR)
+- Wake-word detection (“hey astra”, “ok astra”, “computer”)
+- Gemini AI conversational responses
+- **Murf Falcon TTS output** (primary speaking engine)
+- Fallback TTS via pyttsx3
+
+### 🧠 Functional Skills
+- Open apps (Chrome, Notepad, VS Code, etc.)
+- Web search (Google)
+- Create / view reminders
+- Notes system
+- Logs for all commands
+- Secure API keys via `.env`
+
+### 🎨 UI & UX
+- PyQt6 neon interface  
+- Smooth animations  
+- Typing effect for AI replies  
+- Three themes:
   - Neon Blue
-  - Neon Pink
   - Cyber Green
   - Holographic  
-- Smooth hover/press animations on buttons
-- Glowing indicators for wake-word detection
 - Settings panel for:
-  - Typing speed  
+  - Speech rate
+  - Volume
+  - Typing speed
+  - STT engine
   - Theme  
-  - Volume  
-  - STT engine  
-  - Animations toggle  
-  - Murf API key / voice ID  
 
----
-
-## 🚀 Installation
+----------------------------
+## 🛠️ Installation
 
 ### 1. Clone the repo
 git clone <your-repo-link>
 cd astra
-
-shell
+2. Install dependencies
+sh
 Copy code
-
-### 2. Install required libraries
 pip install -r requirements.txt
+3. Add your .env file
+Create a .env file in the same folder:
 
-shell
+ini
 Copy code
-
-### 3. Create a `.env` file
-GEMINI_API_KEY=your_key
-MURF_API_KEY=your_key
+GEMINI_API_KEY=your_key_here
+MURF_API_KEY=your_key_here
 DEEPGRAM_API_KEY=optional
 OPENWEATHER_API_KEY=optional
 NEWSAPI_KEY=optional
-
-shell
+4. Run ASTRA
 Copy code
+python app.py.
 
-### 4. Run ASTRA
-python app.py
+🏆 Why ASTRA stands out
+Entire application in one optimized Python file
 
-yaml
-Copy code
+Neon animated UI (rare in voice agents)
 
----
+Wake-word based continuous listening
 
-## 🛠 Requirements
+Robust skill system (reminders, notes, apps)
 
-- Python 3.10+
-- PyQt6
-- speech_recognition  
-- pyaudio  
-- pyttsx3  
-- pydub  
-- requests  
-- google-generativeai  
-- dotenv  
+Smooth Falcon-powered speech pipeline
 
-*(Install using `pip install -r requirements.txt`)*
+Practical, real-world desktop assistant design
 
----
+----------------------------
 
-## 🗂 Project Structure
-
-📦 astra
-└── app.py # Entire assistant in one file
-
-yaml
-Copy code
-
----
-
-## 🖥️ Usage Examples
-
-### Voice:
-- “Hey Astra, what's the time?”
-- “Open Chrome”
-- “Set a reminder to study at 7”
-- “Write a note about my project”
-- “Search for Python tutorials”
-
-### Text:
-Type into the input bar at the bottom.
-
----
-
-## 🧩 What Makes ASTRA Unique?
-
-- Everything is **self-contained**  
-- No external UI files  
-- Clean UI with **neon cyber aesthetics**  
-- Real AI + real TTS + real STT  
-- Built for **hackathons/projects/portfolio**  
-
----
-
-## 🤝 Contributing
-
-PRs, improvements, and feature ideas are welcome!
-
----
-
-## 📝 License
-
-MIT License
-
----
-
-## 🔥 Author
-
-Built by **Kartikeya Jagadale** 
-& Ayush Kalambe
-Feel free to connect on LinkedIn!
+👤 Author
+Built by Kartikeya Jagadale & Ayush Kalambe
+LinkedIn: 
+@MurfAI
+Built using Murf Falcon – the consistently fastest TTS API.
