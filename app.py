@@ -1,23 +1,3 @@
-#!/usr/bin/env python3
-"""
-ASTRA - Advanced Speech-based Total Response Assistant
-A fully self-contained, single-file desktop voice assistant
-with neon UI, real-time STT/TTS, wake word detection, and premium animations.
-
-ALL FEATURES INTEGRATED:
-- Neon animated UI with multiple themes
-- Real-time speech recognition
-- Murf AI TTS integration
-- Wake word detection
-- Typing animation effects
-- Command execution
-- Reminders system
-- Logs viewer
-- Settings panel
-- All data in-memory
-- Zero external files required
-"""
-
 import sys
 import json
 import base64
@@ -1844,4 +1824,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
