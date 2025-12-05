@@ -64,16 +64,12 @@ Astra uniquely combines:
 
 ### 1. Clone the repo
 git clone <your-repo-link>
-cd astra
-2. Install dependencies
-sh
+### 2. Install dependencies
 Copy code
 pip install -r requirements.txt
-3. Add your .env file
+### 3. Add your .env file
 Create a .env file in the same folder:
 
-ini
-Copy code
 GEMINI_API_KEY=your_key_here
 MURF_API_KEY=your_key_here
 DEEPGRAM_API_KEY=optional
